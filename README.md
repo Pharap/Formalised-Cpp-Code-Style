@@ -183,7 +183,7 @@ typedefs should be kept local to a class where possible such that the new type e
 They may be public, protected or private.
 Typedefs should only ever occur in the global namespace under circumstances where the benefits outweigh the costs.
 
-### Use of `void`
+#### Use of `void`
 
 When defining a function that takes no arguments,
 make sure to explicitly declare the argument list as void rather than leaving it blank.

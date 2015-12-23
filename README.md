@@ -102,6 +102,8 @@ float Lerp(float value0, float value1, float factor)
 }
 ```
 
+[Back To Top](#formal-declaration-of-code-style)
+
 ### Specific Rules
 
 #### Naming Conventions Of Other APIs
@@ -178,6 +180,8 @@ Typedefs may be used to simplify complex classes such as those involving const a
 typedefs should be kept local to a class where possible such that the new type exists within the class.
 They may be public, protected or private.
 Typedefs should only ever occur in the global namespace under circumstances where the benefits outweigh the costs.
+
+[Back To Top](#formal-declaration-of-code-style)
 	
 ### Casing Style
 
@@ -208,3 +212,5 @@ Typedefs should only ever occur in the global namespace under circumstances wher
 | header file        | pascal case |
 | c++ source file    | pascal case |
 | arduino ino file   | pascal case |
+
+[Back To Top](#formal-declaration-of-code-style)

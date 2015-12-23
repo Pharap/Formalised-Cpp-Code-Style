@@ -96,36 +96,6 @@ float Lerp(float value0, float value1, float factor)
 	return (value0 * (1.0f - factor)) + (value1 * factor);
 }
 ```
-	
-### Casing Style
-
-| Feature            | Casing      |
-|--------------------|-------------|
-| class name         | pascal case |
-| struct name        | pascal case |
-| enum name          | pascal case |
-| class typedef      | pascal case |
-| struct typedef     | pascal case |
-| enum typedef       | pascal case |
-| integral typedef   | camel case  |
-| global variable    | pascal case |
-| local variable     | camel case  |
-| defined constant   | macro case  |
-| defined macro      | macro case  |
-| public field       | pascal case |
-| protected field    | pascal case |
-| private field      | camel case  |
-| function arguments | camel case  |
-| public method      | pascal case |
-| protected method   | pascal case |
-| private method     | camel case  |
-| public function    | pascal case |
-| protected function | pascal case |
-| private function   | camel case  |
-| free function      | pascal case |
-| header file        | pascal case |
-| c++ source file    | pascal case |
-| arduino ino file   | pascal case |
 
 ### Specific Rules
 
@@ -203,3 +173,33 @@ Typedefs may be used to simplify complex classes such as those involving const a
 typedefs should be kept local to a class where possible such that the new type exists within the class.
 They may be public, protected or private.
 Typedefs should only ever occur in the global namespace under circumstances where the benefits outweigh the costs.
+	
+### Casing Style
+
+| Feature            | Casing      |
+|--------------------|-------------|
+| class name         | pascal case |
+| struct name        | pascal case |
+| enum name          | pascal case |
+| class typedef      | pascal case |
+| struct typedef     | pascal case |
+| enum typedef       | pascal case |
+| integral typedef   | camel case  |
+| global variable    | pascal case |
+| local variable     | camel case  |
+| defined constant   | macro case  |
+| defined macro      | macro case  |
+| public field       | pascal case |
+| protected field    | pascal case |
+| private field      | camel case  |
+| function arguments | camel case  |
+| public method      | pascal case |
+| protected method   | pascal case |
+| private method     | camel case  |
+| public function    | pascal case |
+| protected function | pascal case |
+| private function   | camel case  |
+| free function      | pascal case |
+| header file        | pascal case |
+| c++ source file    | pascal case |
+| arduino ino file   | pascal case |

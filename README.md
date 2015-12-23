@@ -183,6 +183,15 @@ typedefs should be kept local to a class where possible such that the new type e
 They may be public, protected or private.
 Typedefs should only ever occur in the global namespace under circumstances where the benefits outweigh the costs.
 
+### Use of `void`
+
+When defining a function that takes no arguments,
+make sure to explicitly declare the argument list as void rather than leaving it blank.
+This is dual purpose. Aside from explicitly declaring one's intentions,
+it makes a function definition with no arguments distinct from a function being called with no arguments.
+Whilst this is rarely a confusable issue, it permits a developer the ability to know at a single glance whether
+they are looking at a function definition/declaration or a function being called.
+
 ### Casing Style
 
 [Back To Top](#formal-declaration-of-code-style)

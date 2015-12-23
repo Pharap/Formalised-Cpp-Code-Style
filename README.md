@@ -7,6 +7,8 @@
 
 ### Definition Of Terminology
 
+[Back To Top](#formal-declaration-of-code-style)
+
 ##### Pascal case
 	The case in which identifiers begin with an uppercase letter,
 	and each new word follows with an uppercase letter.
@@ -102,9 +104,9 @@ float Lerp(float value0, float value1, float factor)
 }
 ```
 
-[Back To Top](#formal-declaration-of-code-style)
-
 ### Specific Rules
+
+[Back To Top](#formal-declaration-of-code-style)
 
 #### Naming Conventions Of Other APIs
 
@@ -181,9 +183,9 @@ typedefs should be kept local to a class where possible such that the new type e
 They may be public, protected or private.
 Typedefs should only ever occur in the global namespace under circumstances where the benefits outweigh the costs.
 
-[Back To Top](#formal-declaration-of-code-style)
-	
 ### Casing Style
+
+[Back To Top](#formal-declaration-of-code-style)
 
 | Feature            | Casing      |
 |--------------------|-------------|
